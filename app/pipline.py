@@ -1,7 +1,7 @@
 import logging
 from tools.intent import classify_intent
 from tools.agent import ask_agent
-from tools.stt import transcribe
+from tools.Stt import transcribe
 from tools.tts import synthesize
 from tools.db import save_message
 
