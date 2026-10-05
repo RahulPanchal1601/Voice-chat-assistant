@@ -8,7 +8,7 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
-from app.pipeline import handle_text, handle_voice
+from app.pipline import handle_text, handle_voice
 from app.ui import demo
 from tools.db import get_history
 
